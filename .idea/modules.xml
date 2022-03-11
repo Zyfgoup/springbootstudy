@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CRUD_Demo/CRUD_Demo.iml" filepath="$PROJECT_DIR$/CRUD_Demo/CRUD_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aop-demo/aop-demo.iml" filepath="$PROJECT_DIR$/aop-demo/aop-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/handle-exception/handle-exception.iml" filepath="$PROJECT_DIR$/handle-exception/handle-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis-demo/redis-demo.iml" filepath="$PROJECT_DIR$/redis-demo/redis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq-demo/rocketmq-demo.iml" filepath="$PROJECT_DIR$/rocketmq-demo/rocketmq-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocketmq-transaction-demo/rocketmq-transaction-demo.iml" filepath="$PROJECT_DIR$/rocketmq-transaction-demo/rocketmq-transaction-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootstudy.iml" filepath="$PROJECT_DIR$/springbootstudy.iml" />
+    </modules>
+  </component>
+</project>

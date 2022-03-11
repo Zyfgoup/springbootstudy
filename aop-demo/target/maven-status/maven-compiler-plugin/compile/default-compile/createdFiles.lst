@@ -1,0 +1,4 @@
+com\zyfgoup\AopDemoApplication.class
+com\zyfgoup\aspect\LogAspect.class
+com\zyfgoup\controller\AopController.class
+com\zyfgoup\entity\Person.class

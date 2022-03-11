@@ -1,0 +1,68 @@
+2021-04-06 16:31:43.195  INFO 4832 --- [restartedMain] com.zyfgoup.AopDemoApplication           : Starting AopDemoApplication on LAPTOP-RB8GI1KH with PID 4832 (D:\springbootstudy\aop-demo\target\classes started by hah in D:\springbootstudy)
+2021-04-06 16:31:43.209  INFO 4832 --- [restartedMain] com.zyfgoup.AopDemoApplication           : No active profile set, falling back to default profiles: default
+2021-04-06 16:31:43.337  INFO 4832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 16:31:43.338  INFO 4832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 16:31:44.990  INFO 4832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-06 16:31:44.999  INFO 4832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-06 16:31:44.999  INFO 4832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-04-06 16:31:45.002  INFO 4832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-04-06 16:31:45.002  INFO 4832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2021-04-06 16:31:45.002  INFO 4832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-06 16:31:45.002  INFO 4832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-06 16:31:45.006  INFO 4832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2021-04-06 16:31:45.099  INFO 4832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-06 16:31:45.100  INFO 4832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1761 ms
+2021-04-06 16:31:45.467  INFO 4832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 16:31:45.702  INFO 4832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-06 16:31:45.743  INFO 4832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-06 16:31:45.747  INFO 4832 --- [restartedMain] com.zyfgoup.AopDemoApplication           : Started AopDemoApplication in 3.036 seconds (JVM running for 3.889)
+2021-04-06 16:32:04.188  INFO 4832 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 16:32:04.188  INFO 4832 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-06 16:32:04.198  INFO 4832 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2021-04-06 16:32:04.227  INFO 4832 --- [http-nio-8082-exec-1] com.zyfgoup.aspect.LogAspect             : ----------------我是在--调用controller层方法前--调用的方法
+2021-04-06 16:32:21.241  INFO 8892 --- [restartedMain] com.zyfgoup.AopDemoApplication           : Starting AopDemoApplication on LAPTOP-RB8GI1KH with PID 8892 (D:\springbootstudy\aop-demo\target\classes started by hah in D:\springbootstudy)
+2021-04-06 16:32:21.244  INFO 8892 --- [restartedMain] com.zyfgoup.AopDemoApplication           : No active profile set, falling back to default profiles: default
+2021-04-06 16:32:21.291  INFO 8892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 16:32:21.291  INFO 8892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 16:32:22.508  INFO 8892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-06 16:32:22.520  INFO 8892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-06 16:32:22.521  INFO 8892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-04-06 16:32:22.525  INFO 8892 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-04-06 16:32:22.525  INFO 8892 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2021-04-06 16:32:22.525  INFO 8892 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-06 16:32:22.525  INFO 8892 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-06 16:32:22.529  INFO 8892 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2021-04-06 16:32:22.630  INFO 8892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-06 16:32:22.630  INFO 8892 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1338 ms
+2021-04-06 16:32:23.013  INFO 8892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 16:32:23.244  INFO 8892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-06 16:32:23.288  INFO 8892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-06 16:32:23.292  INFO 8892 --- [restartedMain] com.zyfgoup.AopDemoApplication           : Started AopDemoApplication in 2.599 seconds (JVM running for 4.397)
+2021-04-06 16:32:29.613  INFO 8892 --- [http-nio-8082-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 16:32:29.613  INFO 8892 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-06 16:32:29.624  INFO 8892 --- [http-nio-8082-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-04-06 16:33:06.467  INFO 8892 --- [http-nio-8082-exec-2] com.zyfgoup.aspect.LogAspect             : ----------------我是在--调用controller层方法前--调用的方法
+2021-04-06 16:33:21.369  INFO 8892 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-06 16:34:04.187  INFO 9932 --- [restartedMain] com.zyfgoup.AopDemoApplication           : Starting AopDemoApplication on LAPTOP-RB8GI1KH with PID 9932 (D:\springbootstudy\aop-demo\target\classes started by hah in D:\springbootstudy)
+2021-04-06 16:34:04.192  INFO 9932 --- [restartedMain] com.zyfgoup.AopDemoApplication           : No active profile set, falling back to default profiles: default
+2021-04-06 16:34:04.248  INFO 9932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-06 16:34:04.249  INFO 9932 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-06 16:34:05.480  INFO 9932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-04-06 16:34:05.490  INFO 9932 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-06 16:34:05.490  INFO 9932 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2021-04-06 16:34:05.492  INFO 9932 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.19] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2021-04-06 16:34:05.493  INFO 9932 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.19] using APR version [1.6.5].
+2021-04-06 16:34:05.493  INFO 9932 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-04-06 16:34:05.493  INFO 9932 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-04-06 16:34:05.496  INFO 9932 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2021-04-06 16:34:05.586  INFO 9932 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-06 16:34:05.587  INFO 9932 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1338 ms
+2021-04-06 16:34:05.936  INFO 9932 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-06 16:34:06.174  INFO 9932 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-06 16:34:06.233  INFO 9932 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2021-04-06 16:34:06.237  INFO 9932 --- [restartedMain] com.zyfgoup.AopDemoApplication           : Started AopDemoApplication in 2.748 seconds (JVM running for 3.731)
+2021-04-06 16:34:16.573  INFO 9932 --- [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-06 16:34:16.573  INFO 9932 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-06 16:34:16.584  INFO 9932 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-04-06 16:37:24.219  INFO 9932 --- [http-nio-8082-exec-1] com.zyfgoup.aspect.LogAspect             : ----------------我是在--调用controller层方法前--调用的方法
+2021-04-06 16:37:24.233  INFO 9932 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

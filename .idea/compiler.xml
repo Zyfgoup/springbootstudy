@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="handle-exception" />
+        <module name="CRUD_Demo" />
+        <module name="api" />
+        <module name="aop-demo" />
+        <module name="rocketmq-transaction-demo" />
+        <module name="redis-demo" />
+        <module name="rocketmq-demo" />
+        <module name="rocketmq-console-ng" />
+        <module name="untitled" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aop-demo" target="1.8" />
+      <module name="api" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="CRUD_Demo" target="1.8" />
+      <module name="handle-exception" target="1.8" />
+      <module name="redis-demo" target="1.8" />
+      <module name="rocketmq-console-ng" target="1.8" />
+      <module name="rocketmq-demo" target="1.8" />
+      <module name="rocketmq-transaction-demo" target="1.8" />
+      <module name="springbootstudy" target="1.8" />
+      <module name="untitled" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CRUD_Demo" options="-parameters" />
+      <module name="aop-demo" options="-parameters" />
+      <module name="api" options="-parameters" />
+      <module name="common" options="-parameters" />
+      <module name="handle-exception" options="-parameters" />
+      <module name="redis-demo" options="-parameters" />
+      <module name="rocketmq-demo" options="-parameters" />
+      <module name="rocketmq-transaction-demo" options="-parameters" />
+      <module name="springbootstudy" options="-parameters" />
+      <module name="untitled" options="-parameters" />
+    </option>
+  </component>
+</project>
